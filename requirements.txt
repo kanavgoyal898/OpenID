@@ -1,4 +1,6 @@
 jupyterlab
 librosa
 matplotlib
+mutagen
 numpy
+sounddevice

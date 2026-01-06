@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS fingerprints (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    hash INTEGER NOT NULL,
+    time INTEGER NOT NULL,
+    song TEXT NOT NULL,
+);
+
+CREATE INDEX IF NOT EXISTS hash_index ON fingerprints (hash);
