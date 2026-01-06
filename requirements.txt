@@ -1,2 +1,4 @@
 jupyterlab
 librosa
+matplotlib
+numpy
